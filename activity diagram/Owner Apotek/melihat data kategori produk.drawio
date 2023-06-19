@@ -1,0 +1,65 @@
+<mxfile host="app.diagrams.net" modified="2023-06-19T18:05:45.889Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="D6iBkUzP7M06TtortC2A" version="21.5.0" type="device">
+  <diagram name="Halaman-1" id="aWdt56ZjkKZc4exvSymQ">
+    <mxGraphModel dx="1434" dy="1826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XoOZlKL17QWWItGu3GnK-1" value="Activity Diagram Melihat Kategori Produk" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="-780" width="625" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="XoOZlKL17QWWItGu3GnK-2" value="Owner Apotek" style="swimlane;startSize=20;html=1;" vertex="1" parent="XoOZlKL17QWWItGu3GnK-1">
+          <mxGeometry y="20" width="370" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="XoOZlKL17QWWItGu3GnK-3" value="Memilih menu master data" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=default;strokeColor=default;" vertex="1" parent="XoOZlKL17QWWItGu3GnK-2">
+          <mxGeometry x="119.99999999999955" y="100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XoOZlKL17QWWItGu3GnK-4" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="XoOZlKL17QWWItGu3GnK-2">
+          <mxGeometry x="159.99999999999955" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XoOZlKL17QWWItGu3GnK-5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=default;rounded=0;" edge="1" parent="XoOZlKL17QWWItGu3GnK-2" source="XoOZlKL17QWWItGu3GnK-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="174.99999999999955" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XoOZlKL17QWWItGu3GnK-6" value="Menekan menu kategori produk" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=default;strokeColor=default;" vertex="1" parent="XoOZlKL17QWWItGu3GnK-2">
+          <mxGeometry x="114.99999999999955" y="170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XoOZlKL17QWWItGu3GnK-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XoOZlKL17QWWItGu3GnK-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="174.99999999999955" y="140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XoOZlKL17QWWItGu3GnK-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XoOZlKL17QWWItGu3GnK-1" source="XoOZlKL17QWWItGu3GnK-3" target="XoOZlKL17QWWItGu3GnK-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XoOZlKL17QWWItGu3GnK-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.448;entryY=-0.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="XoOZlKL17QWWItGu3GnK-1" source="XoOZlKL17QWWItGu3GnK-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="170" />
+              <mxPoint x="114" y="170" />
+            </Array>
+            <mxPoint x="178.24" y="189.23999999999978" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XoOZlKL17QWWItGu3GnK-10" value="Sistem" style="swimlane;startSize=20;html=1;" vertex="1" parent="XoOZlKL17QWWItGu3GnK-1">
+          <mxGeometry x="370" y="20" width="255" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="XoOZlKL17QWWItGu3GnK-11" value="Menampilkan dropdown pilihan menu" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=default;strokeColor=default;" vertex="1" parent="XoOZlKL17QWWItGu3GnK-10">
+          <mxGeometry x="44.999999999999545" y="100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XoOZlKL17QWWItGu3GnK-12" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="XoOZlKL17QWWItGu3GnK-10">
+          <mxGeometry x="89.99999999999955" y="240" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XoOZlKL17QWWItGu3GnK-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XoOZlKL17QWWItGu3GnK-10" source="XoOZlKL17QWWItGu3GnK-14" target="XoOZlKL17QWWItGu3GnK-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XoOZlKL17QWWItGu3GnK-14" value="Menampilkan data kategori produk" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=default;strokeColor=default;" vertex="1" parent="XoOZlKL17QWWItGu3GnK-10">
+          <mxGeometry x="44.999999999999545" y="170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XoOZlKL17QWWItGu3GnK-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="XoOZlKL17QWWItGu3GnK-1" source="XoOZlKL17QWWItGu3GnK-6" target="XoOZlKL17QWWItGu3GnK-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
