@@ -1,0 +1,60 @@
+<mxfile host="app.diagrams.net" modified="2023-06-20T05:12:24.462Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="2yb6hW43IHOoBcmEHC0f" version="21.5.0" type="device">
+  <diagram name="Halaman-1" id="uNKmq2tN-wuoeX3AOSDw">
+    <mxGraphModel dx="1195" dy="1777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="F_bJyU4vC3c61lGQGgir-67" value="Activity Diagram Melihat Kategori Artikel" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="-800" width="400" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="F_bJyU4vC3c61lGQGgir-68" value="Dokter" style="swimlane;startSize=20;html=1;" vertex="1" parent="F_bJyU4vC3c61lGQGgir-67">
+          <mxGeometry y="20" width="200" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="F_bJyU4vC3c61lGQGgir-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="F_bJyU4vC3c61lGQGgir-68" source="F_bJyU4vC3c61lGQGgir-71" target="F_bJyU4vC3c61lGQGgir-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F_bJyU4vC3c61lGQGgir-71" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="F_bJyU4vC3c61lGQGgir-68">
+          <mxGeometry x="85" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F_bJyU4vC3c61lGQGgir-72" value="Memilih menu master data" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=default;strokeColor=default;" vertex="1" parent="F_bJyU4vC3c61lGQGgir-68">
+          <mxGeometry x="50" y="80" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F_bJyU4vC3c61lGQGgir-76" value="Memilih menu kategori artikel" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=default;strokeColor=default;" vertex="1" parent="F_bJyU4vC3c61lGQGgir-68">
+          <mxGeometry x="40" y="150" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F_bJyU4vC3c61lGQGgir-69" value="Sistem" style="swimlane;startSize=20;html=1;" vertex="1" parent="F_bJyU4vC3c61lGQGgir-67">
+          <mxGeometry x="200" y="20" width="200" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="F_bJyU4vC3c61lGQGgir-75" value="Menampilkan dropdown pilihan menu" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=default;strokeColor=default;" vertex="1" parent="F_bJyU4vC3c61lGQGgir-69">
+          <mxGeometry x="40" y="75" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F_bJyU4vC3c61lGQGgir-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="F_bJyU4vC3c61lGQGgir-69" source="F_bJyU4vC3c61lGQGgir-78" target="F_bJyU4vC3c61lGQGgir-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F_bJyU4vC3c61lGQGgir-78" value="Menampilkan data kategori artikel" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=default;strokeColor=default;" vertex="1" parent="F_bJyU4vC3c61lGQGgir-69">
+          <mxGeometry x="40" y="150" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F_bJyU4vC3c61lGQGgir-80" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="F_bJyU4vC3c61lGQGgir-69">
+          <mxGeometry x="90" y="210" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F_bJyU4vC3c61lGQGgir-73" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=default;rounded=0;" edge="1" source="F_bJyU4vC3c61lGQGgir-72" parent="F_bJyU4vC3c61lGQGgir-67" target="F_bJyU4vC3c61lGQGgir-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F_bJyU4vC3c61lGQGgir-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="F_bJyU4vC3c61lGQGgir-67" source="F_bJyU4vC3c61lGQGgir-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="305" y="150" />
+              <mxPoint x="100" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F_bJyU4vC3c61lGQGgir-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="F_bJyU4vC3c61lGQGgir-67" source="F_bJyU4vC3c61lGQGgir-76" target="F_bJyU4vC3c61lGQGgir-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
